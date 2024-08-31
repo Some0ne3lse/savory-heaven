@@ -1,3 +1,4 @@
 import "./styles.css";
+import "./reset.css";
 
-console.log("Yoyoyo!");
+const mainDiv = document.querySelector("#content");
