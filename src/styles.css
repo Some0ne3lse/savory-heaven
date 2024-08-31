@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "PlayWrite";
+  src: url("./PlayWrite.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baskervville";
+  src: url("./Baskervville.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
