@@ -121,6 +121,7 @@ nav > ol {
   justify-content: space-between;
 }
 
-.beverage-image {
+.beverage-image,
+.dish-image {
   width: 200px;
 }
