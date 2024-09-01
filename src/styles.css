@@ -11,3 +11,30 @@
   font-weight: 500;
   font-style: normal;
 }
+
+header {
+  background-color: #e7c687;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+nav > ol {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  border: none;
+  background-color: #e7c687;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+}
