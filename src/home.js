@@ -106,4 +106,5 @@ const locationCountry = document.createElement("p");
 locationCountry.classList.add("location");
 locationCountry.textContent = "United states";
 locationContainer.appendChild(locationCountry);
+
 export default homeDiv;
