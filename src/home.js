@@ -3,7 +3,7 @@ import logo from "./savory_heaven.png";
 const homeDiv = document.createElement("p");
 
 const nameImageAndSlogan = document.createElement("div");
-nameImageAndSlogan.classList.add("header-content");
+nameImageAndSlogan.classList.add("name-image-and-slogan");
 homeDiv.appendChild(nameImageAndSlogan);
 
 const nameAndSlogan = document.createElement("div");
@@ -15,12 +15,12 @@ name.classList.add("name");
 nameAndSlogan.appendChild(name);
 
 const mainNameFirst = document.createElement("h1");
-mainNameFirst.classList.add("main-name");
+mainNameFirst.classList.add("main-name-top");
 mainNameFirst.textContent = "Savory";
 name.appendChild(mainNameFirst);
 
 const mainNameSecond = document.createElement("h1");
-mainNameSecond.classList.add("main-name");
+mainNameSecond.classList.add("main-name-bottom");
 mainNameSecond.textContent = "Heaven";
 name.appendChild(mainNameSecond);
 

@@ -23,6 +23,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 33%;
+  padding-top: 20px;
 }
 
 nav > ol {
@@ -37,4 +38,43 @@ nav > ol {
   font-size: 2rem;
   padding: 10px;
   cursor: pointer;
+}
+
+.name-image-and-slogan {
+  background-color: #e7c687;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.name-and-slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: "Baskervville", "Baskerville", "Garamond", "Georgia",
+    "Times New Roman", serif;
+}
+
+.main-name-top,
+.main-name-bottom {
+  margin: 0;
+}
+
+.main-name-bottom {
+  text-align: right;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  font-family: "PlayWrite", "Playfair Display", "Merriweather", "Georgia",
+    "Times New Roman", serif;
+}
+
+.logo-image {
+  width: 20%;
+  border-radius: 15px;
 }
