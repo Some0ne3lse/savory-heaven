@@ -9,14 +9,25 @@ import stuffedBellPeppers from "./food-images/stuffed_bell_peppers.png";
 import chickenSkewers from "./food-images/chicken_skewers.png";
 
 const menuDiv = document.createElement("div");
+menuDiv.classList.add("entire-menu");
 
 const foodMenu = document.createElement("div");
 foodMenu.classList.add("food-menu");
 menuDiv.appendChild(foodMenu);
 
+const foodTitle = document.createElement("h2");
+foodTitle.classList.add("food-title");
+foodTitle.textContent = "Dishes";
+foodMenu.appendChild(foodTitle);
+
 const drinksMenu = document.createElement("div");
 drinksMenu.classList.add("drinks-menu");
 menuDiv.appendChild(drinksMenu);
+
+const drinksTitle = document.createElement("h2");
+drinksTitle.classList.add("drinks-title");
+drinksTitle.textContent = "Drinks";
+drinksMenu.appendChild(drinksTitle);
 
 const myBeverages = [];
 const myDishes = [];
