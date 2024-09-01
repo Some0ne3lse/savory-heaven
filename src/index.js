@@ -1,4 +1,6 @@
 import "./styles.css";
 import "./reset.css";
+import homeDiv from "./home";
 
-const mainDiv = document.querySelector("#content");
+const contentDiv = document.querySelector("#content");
+contentDiv.appendChild(homeDiv);
