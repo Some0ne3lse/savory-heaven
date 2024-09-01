@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+body {
+  min-height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: #e7c687;
   display: flex;
@@ -38,6 +45,20 @@ nav > ol {
   font-size: 2rem;
   padding: 10px;
   cursor: pointer;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
 }
 
 .name-image-and-slogan {
@@ -77,4 +98,25 @@ nav > ol {
 .logo-image {
   width: 20%;
   border-radius: 15px;
+}
+
+.main-info {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  flex-grow: 1;
+}
+
+.hours-container,
+.location-container {
+  background-color: #e7c687;
+  border-radius: 15px;
+  width: 20rem;
+  height: 15rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

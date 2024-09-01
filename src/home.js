@@ -1,6 +1,7 @@
 import logo from "./savory_heaven.png";
 
-const homeDiv = document.createElement("p");
+const homeDiv = document.createElement("div");
+homeDiv.classList.add("home-div");
 
 const nameImageAndSlogan = document.createElement("div");
 nameImageAndSlogan.classList.add("name-image-and-slogan");
