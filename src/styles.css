@@ -120,3 +120,7 @@ nav > ol {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.beverage-image {
+  width: 200px;
+}
