@@ -47,6 +47,20 @@ nav > ol {
   cursor: pointer;
 }
 
+footer {
+  background-color: #e7c687;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.links {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -188,4 +202,30 @@ nav > ol {
   grid-column: 1 / 3;
   grid-row: 5 / 6;
   font-size: 20px;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-container {
+  width: 70%;
+  background-color: #e7c687;
+  padding: 40px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.restaurant-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
 }
