@@ -5,7 +5,7 @@ import menuDiv from "./menu";
 import aboutDiv from "./about";
 
 const contentDiv = document.querySelector("#content");
-contentDiv.appendChild(aboutDiv);
+contentDiv.appendChild(homeDiv);
 
 const homeButton = document.querySelector("#home");
 homeButton.onclick = function () {

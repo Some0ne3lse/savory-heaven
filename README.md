@@ -1,2 +1,2 @@
 Project from The Odin Project
-Not optimized for small screens
+Not optimized other screen sizes, since that was not part of the assignment
